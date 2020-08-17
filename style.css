@@ -3,12 +3,17 @@ body {
   background-color: #cfd8dc;
 }
 .container {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.top {
+  display: flex;
+  flex-direction: column;
+}
 .title {
-  margin: 5px;
+  margin: 10px;
   font-size: 25px;
 }
 .delete {
